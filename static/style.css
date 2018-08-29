@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    background-color: wheat;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: crimson;
+    align-content: center;  
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+}
+
+header nav{
+    padding-top: 24px;
+}
+
+header nav a{
+    padding-left: 20px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Baloo Tammudu', cursive;
+}
+
+header nav a:hover{
+    color: wheat;
+    cursor: pointer;
+}
