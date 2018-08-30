@@ -1,7 +1,6 @@
 {
-  "name": "exercicio",
+  "name": "travels",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "nodemon": "^1.18.3"
-  }
+    "nodemon": "^1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianoSilva24/travels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FabianoSilva24/travels/issues"
+  },
+  "homepage": "https://github.com/FabianoSilva24/travels#readme",
+  "description": ""
 }

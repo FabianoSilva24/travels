@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     background-color: crimson;
-    align-content: center;  
+    align-items: center;  
 }
 
 header img{
@@ -16,7 +16,7 @@ header img{
 }
 
 header nav{
-    padding-top: 24px;
+    padding-top: 14px;
 }
 
 header nav a{
@@ -30,4 +30,75 @@ header nav a{
 header nav a:hover{
     color: wheat;
     cursor: pointer;
+}
+
+.casa{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+section{
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.viagem{
+   padding: 66px;
+}
+
+.flex{
+    display: flex;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+#img{
+    height: 350px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+#aero{
+    height: 350px;
+    width: 700px;
+    padding-left: 297px;   
+}
+
+#titulo1{
+    padding-left: 536px;
+}
+
+#texto{
+    margin: 0 50px;
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 410px;;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+}
+
+.digitar{
+    display: flex;
+    flex-direction: column;
+}
+
+nav input{
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+textarea{
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+button{
+    
 }
