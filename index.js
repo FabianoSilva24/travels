@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use('/static', express.static('static'));
 app.use(bodyParser.urlencoded());
 app.use(expressMongoDb('mongodb://localhost/travels'));
-app.use(expressMongoDb('mongodb://fabianosilva24:fabiano.jaragua24@hotmail.com:Twdahs100st/travels'))
+app.use(expressMongoDb('mongodb://<fabianosilva24>:<Twdahs100st>@ds241012.mlab.com:41012/travels'))
 
 app.get('', (req, res) => {
     res.render('index');
