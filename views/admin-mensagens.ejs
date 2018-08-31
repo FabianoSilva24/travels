@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('share/head') %>
+<body>
+    <section>
+        <h2>Mensagens</h2>
+        
+        <% for(let mensagem of mensagens){ %>
+            <div>
+                <p>Nome: <%= mensagem.nome%></p>
+                <p>Nome: <%= mensagem.destino%></p>
+                <p>E-mail: <%= mensagem.email%></p>
+                <p>Mensagem: <%= mensagem.mensagem%></p>
+                <hr>
+            </div>
+        <% } %>
+    
+    </section>
+</body>
+</html>
